@@ -1,11 +1,11 @@
 {
-  "name": "project-cyber-cats",
+  "name": "goit-g16-prj-1",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-cyber-cats/",
+    "build": "vite build --base=/goit-g16-prj-1/",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -21,3 +21,4 @@
     "vite-plugin-html-inject": "^1.1.2"
   }
 }
+
