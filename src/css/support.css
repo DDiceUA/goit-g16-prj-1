@@ -1,7 +1,9 @@
 .support {
+    font-family: 'Fira Sans', Arial, sans-serif;
     margin-top: 32px;
     margin-bottom: 32px;
 }
+
 
 .support>.container {
     display: flex;
@@ -11,6 +13,7 @@
 
 .support .subheading {
     margin-bottom: 24px;
+    font-family: 'Comfortaa', Arial, sans-serif;
 }
 
 .support .small-text {
@@ -36,6 +39,7 @@ input, textarea {
     background: rgba(3, 10, 6, 0.05);
     border-radius: 6px; 
     outline: none;
+    resize: none;
     padding: 12px;
 }
 input::placeholder,
@@ -58,15 +62,10 @@ input:not(:placeholder-shown):invalid ~ .text-invalid {
   margin-bottom: -25.6px;
 }
 
-/* стилізація інформаційного текста при не валідному значенні в інпуті */
-.inp:not(:placeholder-shown):invalid ~ .text-invalid {
-  display: block;
-}
-
 .support-img {
     background-repeat: no-repeat;
-    height: 428px;
-    width: 288px;
+    width: 343px;
+    height: 510px;
     background-image: url(/img/support/support-m.jpg);
     background-position: center center;
     background-size: cover;  
@@ -79,6 +78,15 @@ input:not(:placeholder-shown):invalid ~ .text-invalid {
     border-radius: 6px;
     padding: 12px 24px;
 }
+.support-form>button:hover,
+.support-form>button:focus {
+    opacity: 0.5;
+}
+.support-form>button:active {
+    border: 1px solid #113916;
+    background-color: #113916;
+    opacity: 0.6;
+}
 
 @media screen and (min-resolution: 192dpi) {
     .support-img {
@@ -89,12 +97,20 @@ input:not(:placeholder-shown):invalid ~ .text-invalid {
 @media screen and (min-width: 768px) {
     .support-img {
         width: 704px;
+        height: 428px;
         background-image: url(/img/support/support-t.jpg);   
+    }
+    .support {
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+    .support-form>button {
+        max-width: 249px;
     }
 }
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
     .support-img {
-        background-image: url(/img/support/support-m@2x.jpg);   
+        background-image: url(/img/support/support-t@2x.jpg);   
     }
 }
 
@@ -104,13 +120,21 @@ input:not(:placeholder-shown):invalid ~ .text-invalid {
     }
 
     .support-text-container {
-        width: 644;
+        width: 644px;
     }
 
     .support-img {
         height: 767px;
         width: 644px;
         background-image: url(/img/support/support-d.jpg);   
+    }
+
+    .subheading {
+        font-size: 48px;
+    }
+
+    .support-form>button {
+        max-width: 198px;
     }
 }
 @media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
