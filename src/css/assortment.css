@@ -71,6 +71,19 @@
   transition: all 0.3s ease;
 }
 
+.assortment-button:hover,
+.assortment-button:focus {
+  color: #030a06;
+  border-color: #030a06;
+  opacity: 0.5;
+}
+
+.assortment-button:active {
+  color: #113916;
+  border-color: #113916;
+  transition: none;  
+}
+
 @media only screen and (min-width: 768px) {
   .assortment-group {
     flex-direction: row;
@@ -101,16 +114,9 @@
     width: calc((100% - 72px) / 4); 
   }
 
-  .assortment-button:hover,
-  .assortment-button:focus {
-    color: #030a06;
-    border-color: #030a06;
-    opacity: 0.5;
+  .assortment-section  .subheading {
+    font-size: 48px;
   }
 
-  .assortment-button:active {
-    color: #113916;
-    border-color: #113916;
-    transition: none;  
-  }
+
 }
