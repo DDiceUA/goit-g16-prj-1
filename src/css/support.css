@@ -4,11 +4,11 @@
     margin-bottom: 32px;
 }
 
-
 .support>.container {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    height: 1261px;
 }
 
 .support .subheading {
@@ -16,9 +16,11 @@
     font-family: 'Comfortaa', Arial, sans-serif;
 }
 
-.support .small-text {
+.support .support-text {
     margin-bottom: 32px;
     font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
 }
 
 .support-form {
@@ -41,6 +43,9 @@ input, textarea {
     outline: none;
     resize: none;
     padding: 12px;
+}
+input {
+    padding: 12px 8px;
 }
 input::placeholder,
 textarea::placeholder {
@@ -65,7 +70,7 @@ input:not(:placeholder-shown):invalid ~ .text-invalid {
 .support-img {
     background-repeat: no-repeat;
     width: 343px;
-    height: 510px;
+    height: 100%;
     background-image: url(/img/support/support-m.jpg);
     background-position: center center;
     background-size: cover;  
@@ -95,9 +100,12 @@ input:not(:placeholder-shown):invalid ~ .text-invalid {
 }
 
 @media screen and (min-width: 768px) {
+    .support>.container {
+        height: 1239px;
+    }
+
     .support-img {
         width: 704px;
-        height: 428px;
         background-image: url(/img/support/support-t.jpg);   
     }
     .support {
@@ -117,6 +125,7 @@ input:not(:placeholder-shown):invalid ~ .text-invalid {
 @media screen and (min-width: 1440px) {
     .support>.container {
         flex-direction: row;
+        height: 895px;
     }
 
     .support-text-container {
@@ -124,12 +133,12 @@ input:not(:placeholder-shown):invalid ~ .text-invalid {
     }
 
     .support-img {
-        height: 767px;
         width: 644px;
+        height: 100%;
         background-image: url(/img/support/support-d.jpg);   
     }
 
-    .subheading {
+    h2.subheading {
         font-size: 48px;
     }
 
