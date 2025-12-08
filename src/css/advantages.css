@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    background-color: #ebf8ed;
+}
+
+.advantages {
+    padding: 32px 16px;
+}
+
+.advantages-container {
+    max-width: 1312px;
+    margin: 0 auto;
+}
+
+.container-advantages {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 48px;
+}
+
+.title {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+}
+
+.heading {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.01em;
+    margin: 0;
+}
+
+.title-text {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 288px;
+    margin: 0;
+}
+
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.images-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+
+.list-point,
+.list-point-bag {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.advantages-img-wrap {
+    width: 100%;
+    height: 198px;
+    border-radius: 32px;
+    overflow: hidden;
+}
+
+.advantages-img,
+.advantages-img-bag {
+    width: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+    border-radius: 32px;
+    height: 198px;
+    display: block;
+    height: 100%;
+}
+
+.list-name {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.01em;
+}
+
+.list-text {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/*====================== TABLET =======================*/
+@media screen and (min-width: 768px) {
+    .advantages {
+        padding: 64px 32px;
+    }
+
+    .heading {
+        font-size: 36px;
+        line-height: 43px;
+    }
+
+    .title-text {
+        font-size: 18px;
+        line-height: 26px;
+        max-width: 704px;
+    }
+
+    .images-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+        display: flex;
+    }
+
+    .list-point {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .list-point-bag {
+        width: 100%;
+    }
+
+    .list-point .advantages-img-wrap {
+        height: 201px;
+    }
+
+    .list-point-bag .advantages-img-wrap {
+        height: 416px;
+    }
+
+    /*======================= DESKTOP =======================*/
+    @media screen and (min-width: 1440px) {
+        .advantages {
+            padding: 64px;
+        }
+
+        .heading {
+            font-size: 48px;
+            line-height: 58px;
+        }
+
+        .images-list {
+            flex-wrap: wrap;
+            align-items: flex-start;
+            gap: 24px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .list-point,
+        .list-point-bag {
+            width: calc((100% - 48px) / 3);
+        }
+
+    }
+
+    .list-name {
+        font-size: 32px;
+    }
+
+    .title-text {
+        max-width: 768px;
+    }
+
+    .advantages-img,
+    .advantages-img-bag {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 32px;
+    }
+
+    .advantages-img-wrap {
+        height: 249px;
+    }
+}
