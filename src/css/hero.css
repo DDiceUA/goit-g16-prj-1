@@ -52,8 +52,18 @@
   height: 50px;
 }
 
+.main-button:hover,
+.main-button:focus {
+  background-color: #030a06;
+  transition: opacity 250ms ease-in-out, background-color 250ms ease-in-out;
+  opacity: 0.5;
+}
 
-
+.main-button:active {
+  background-color: #113916;
+  opacity: 0.6;
+    transition: opacity 250ms ease-in-out, background-color 250ms ease-in-out;
+}
 
 @media screen and (min-width: 768px) {
 
