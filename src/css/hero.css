@@ -69,8 +69,8 @@
     transition: opacity 250ms ease-in-out, background-color 250ms ease-in-out;
 }
 
-.hero-picture-container {
-
+.hero-image {
+border-radius: 40px;
 }
 
 @media screen and (min-width: 768px) {
@@ -90,7 +90,7 @@
 }
 
   .main-title {
-    max-width: 340px;    
+    max-width: calc((100% - 24px) / 2);    
     margin-bottom: 0;
   }
 
@@ -129,7 +129,7 @@
   .main-title {
     display: inline-block;
     font-size: 56px;
-    max-width: 640px;
+    max-width: calc((100% - 32px) / 2);    
     text-align: left;
   }
 
