@@ -69,7 +69,6 @@ input:not(:placeholder-shown):invalid ~ .text-invalid {
 
 .support-img {
     background-repeat: no-repeat;
-    width: 343px;
     height: 100%;
     background-image: url(/img/support/support-m.jpg);
     background-position: center center;
@@ -108,10 +107,16 @@ input:not(:placeholder-shown):invalid ~ .text-invalid {
         width: 704px;
         background-image: url(/img/support/support-t.jpg);   
     }
+
     .support {
         margin-top: 64px;
         margin-bottom: 64px;
     }
+
+    .support .subheading {
+        max-width: 468px;
+    }
+
     .support-form>button {
         max-width: 249px;
     }
@@ -138,8 +143,9 @@ input:not(:placeholder-shown):invalid ~ .text-invalid {
         background-image: url(/img/support/support-d.jpg);   
     }
 
-    h2.subheading {
+    .support .subheading {
         font-size: 48px;
+        max-width: 100%;
     }
 
     .support-form>button {
