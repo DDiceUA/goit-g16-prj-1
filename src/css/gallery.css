@@ -34,7 +34,7 @@
     align-items: center;
     justify-content: center;
     max-width: 288px;
-    margin-bottom: 32px;
+    
 
 }
 
@@ -55,7 +55,7 @@
 
 }
 
-.subheading-title {
+.subheading.subheading-title {
     padding: 0 auto;
     font-weight: 700;
     font-size: 36px;
@@ -68,14 +68,14 @@
 
 /* Deskop screen */
 @media only screen and (min-width: 767px) {
-    .subheading-title {
+    .subheading.subheading-title {
         margin-bottom: 24px;
     }
 }
 
 /* Deskop screen */
 @media only screen and (min-width: 1440px) {
-    .subheading-title {
+    .subheading.subheading-titleco {
         font-size: 48px;
     }
 }
