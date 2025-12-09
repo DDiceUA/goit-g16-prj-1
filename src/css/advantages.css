@@ -15,6 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-bottom: 48px;
+    justify-content: space-between;
 }
 
 .title {
@@ -86,7 +87,7 @@ margin-bottom: 48px;
     width: 100%;
     object-fit: cover;
     flex-shrink: 0;
-    border-radius: 50px;
+    border-radius: 32px;
     height: 198px;
     display: block;
     height: 100%;
@@ -129,7 +130,6 @@ margin-bottom: 48px;
     .images-list {
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 24px;
         display: flex;
     }
 
@@ -169,13 +169,10 @@ margin-bottom: 48px;
         .images-list {
             flex-wrap: wrap;
             align-items: flex-start;
-            gap: 24px;
             display: flex;
             flex-direction: row;
         }
-        .list-point{
-            margin-right: 24px;
-        }
+
         .list-point,
         .list-point-bag {
             width: calc((100% - 48px) / 3);
@@ -192,7 +189,7 @@ margin-bottom: 48px;
     .advantages-img-bag {
         width: 100%;
         object-fit: cover;
-        border-radius: 50px;
+        border-radius: 32px;
         margin-bottom: 32px;
     }      
     .list-name {
