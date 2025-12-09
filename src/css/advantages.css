@@ -31,7 +31,7 @@ body {
 }
 .title-text {
     font-family: "Fira Sans", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.6;
     max-width: 288px;
     margin: 0;
@@ -58,17 +58,15 @@ img {
     flex-direction: column;
     margin: 0 auto;
 }
-
-
 .list-point,
 .list-point-bag {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-/*.list-point{
-margin-bottom: 48px;
-}*/
+.list-point{
+margin-bottom: 32px;
+}
 
 .list-point-bag {
     margin-bottom: 32px;
@@ -140,14 +138,16 @@ margin-bottom: 48px;
         }
     .advantages-img,
     .advantages-img-bag {
-            margin-bottom: 32px;
+            gap: 32px;
         }
+
     .list-name {
         margin-bottom: 8px;
 }
 }
     /*======================= DESKTOP =======================*/
     @media screen and (min-width: 1440px) {
+
         .title{
             margin-bottom: 16px;
         }
