@@ -142,41 +142,7 @@ grid-row-gap: 24px;
     grid-area: 1 / 1 / 2 / 2; }
 }
 
-    /* .gallery-list {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        gap: 24px;
-        height: 1062px;
-
-    }
-
-    picture {
-        width: calc((100% - 48px) / 2);
-    }
-
-    .picture:nth-child(3) {
-        order: 0;
-    }
-
-    .picture:nth-child(3) {
-        order: 9;
-    }
-
-    .picture:nth-child(3) {
-        order: 3;
-    }
-
-    .picture:nth-child(3) {
-        order: 6;
-    }
-} */
    
-   
-     
- 
-
-
 
 /* Deskop screen */
 @media only screen and (min-width: 1440px) {
@@ -208,47 +174,7 @@ grid-row-gap: 24px;
     }
     
     
-    
-    
-    
-    /* .gallery-list {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        gap: 24px;
-        height: 1062px;
-
-    }
-
-    picture {
-        width: calc((100% - 72px) / 3);
-    }
-
-    .picture:nth-child(3) {
-        order: 9;
-    }
-
-    .picture:nth-child(3) {
-        order: 0;
-    }
-
-    .picture:nth-child(3) {
-        order: 3;
-    }
-
-    .picture:nth-child(3) {
-        order: 6;
-    }
-
-} */
-
-
-
-
-
-
-
-.gallery-item {
+ .gallery-item {
     max-width: 288px;
     border-radius: 32px;
     margin-bottom: 16px;
