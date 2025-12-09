@@ -4,9 +4,6 @@ body {
 }
 
 .advantages {
-    background-image: url('../img/advantages/bag.jpg');
-}
-.advantages {
     padding: 32px 16px;
 }
 
@@ -52,7 +49,9 @@ h3,
 p {
     margin: 0;
 }
-
+.picture{
+    width: 100%;
+}
 img {
     display: block;
     max-width: 100%;
@@ -83,7 +82,7 @@ img {
     width: 100%;
     object-fit: cover;
     flex-shrink: 0;
-    border-radius: 32px;
+    border-radius: 50px;
     height: 198px;
     display: block;
     height: 100%;
@@ -117,7 +116,7 @@ img {
     .title-text {
         font-size: 18px;
         line-height: 26px;
-        max-width: 704px;
+        max-width: 689px;
     }
 
     .images-list {
@@ -173,7 +172,7 @@ img {
     .advantages-img-bag {
         width: 100%;
         object-fit: cover;
-        border-radius: 32px;
+        border-radius: 50px;
     }
 
 }
