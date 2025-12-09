@@ -12,7 +12,9 @@
   gap: 48px;
   margin-bottom: 48px;
 }
-.footer-logo {
+.icon-logo {
+  width: 32px;
+  height: 32px;
 }
 .footer-menu-text {
   font-family: 'Fira Sans', sans-serif;
@@ -62,15 +64,28 @@
 @media (min-width: 768px) {
   .footer-menu {
     flex-direction: row;
+    gap: 32px;
   }
   .footer-logo {
-    width: auto;
+    width: 164.25;
     object-fit: contain;
   }
   .footer-contacts {
     display: flex;
     flex-direction: row;
     gap: 32px;
+  }
+  .footer-top {
+    gap: 32px;
+    margin-bottom: 24px;
+  }
+  .footer-bottom {
+    padding-top: 16px;
+    gap: 16px;
+  }
+  .icon-logo {
+    width: 40;
+    height: 40;
   }
 }
 @media (min-width: 1440px) {
