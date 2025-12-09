@@ -112,13 +112,11 @@ img {
         font-size: 36px;
         line-height: 43px;
     }
-
     .title-text {
         font-size: 18px;
         line-height: 26px;
         max-width: 689px;
     }
-
     .images-list {
         flex-direction: row;
         flex-wrap: wrap;
@@ -133,18 +131,15 @@ img {
     .list-point-bag {
         width: 100%;
     }
-
     /*======================= DESKTOP =======================*/
     @media screen and (min-width: 1440px) {
         .advantages {
             padding: 64px;
         }
-
         .heading {
             font-size: 48px;
             line-height: 58px;
         }
-
         .images-list {
             flex-wrap: wrap;
             align-items: flex-start;
@@ -152,27 +147,22 @@ img {
             display: flex;
             flex-direction: row;
         }
-
         .list-point,
         .list-point-bag {
             width: calc((100% - 48px) / 3);
         }
 
     }
-
     .list-name {
         font-size: 32px;
     }
-
     .title-text {
         max-width: 768px;
     }
-
     .advantages-img,
     .advantages-img-bag {
         width: 100%;
         object-fit: cover;
         border-radius: 50px;
     }
-
 }
