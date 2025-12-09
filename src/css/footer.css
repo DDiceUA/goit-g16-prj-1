@@ -64,8 +64,18 @@
     flex-direction: row;
   }
   .footer-logo {
-    width: 164.25px;
+    width: auto;
     object-fit: contain;
+  }
+  .footer-contacts {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  }
+}
+@media (min-width: 1440px) {
+  .footer-top {
+    flex-direction: row;
   }
 }
 /* .logo {
