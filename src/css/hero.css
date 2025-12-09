@@ -1,0 +1,154 @@
+
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.hero-content-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-title {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: #030a06;
+  margin-bottom: 20px;
+  display: block;
+  width: auto;
+  max-width: 288px;
+  text-align: left;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.subsubtitle {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #030a06;
+  max-width: 288px;
+}
+
+.main-button {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #fff;
+  background-color: #030a06;
+  cursor: pointer;
+  display: block;
+  border-radius: 6px;
+  border: none;
+  width: 288px;
+  height: 50px;
+}
+
+.main-button:hover,
+.main-button:focus {
+  background-color: #030a06;
+  transition: opacity 250ms ease-in-out, background-color 250ms ease-in-out;
+  opacity: 0.5;
+}
+
+.main-button:active {
+  background-color: #113916;
+  opacity: 0.6;
+    transition: opacity 250ms ease-in-out, background-color 250ms ease-in-out;
+}
+
+.hero-image {
+border-radius: 40px;
+}
+
+@media screen and (min-width: 768px) {
+
+  .hero-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+.hero-content-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 24px;
+  margin-bottom: 20px;
+}
+
+  .main-title {
+    max-width: calc((100% - 24px) / 2);    
+    margin-bottom: 0;
+  }
+
+  .subsubtitle {
+    font-size: 18px;
+  }
+
+  .hero-content {
+    gap: 32px;
+  }
+
+  .main-button {
+    width: 148px;
+    height: 50px;
+  }
+
+
+  .hero-picture-container {
+    flex-direction: column;
+      align-items: flex-start;
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+ 
+
+  .hero-container {
+    flex-direction: column;
+  }
+
+  .hero-content-container {
+    display: flex;
+  }
+
+  .main-title {
+    display: inline-block;
+    font-size: 56px;
+    max-width: calc((100% - 32px) / 2);    
+    text-align: left;
+  }
+
+  .hero-content {
+    gap: 32px;
+    margin-bottom: 20px;
+  }
+
+  .subsubtitle {
+    font-size: 18px;
+  }
+
+  .main-button {
+    width: 148px;
+    height: 50px;
+  }
+}
