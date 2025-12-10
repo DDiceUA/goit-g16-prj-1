@@ -141,7 +141,7 @@ input:not(:placeholder-shown):invalid ~ .text-invalid {
 
     .support-img {
         width: 644px;
-        height: 100%;
+        height: 767px;
         background-image: url(/img/support/support-d.jpg);   
     }
 
