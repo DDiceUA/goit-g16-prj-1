@@ -38,6 +38,7 @@
 .header-logo:active {
   color: #3ac04c;
   transition: color 0.2s ease;
+}
 .mobile-menu .icon-logo{
   width: 84px;
   height: 36px;
