@@ -112,13 +112,10 @@
 
 }
 
-.mobile-menu{
+.mobile-menu.is-open{
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-}
-
-.mobile-menu.active {
   transform: translateX(0); 
 }
 
