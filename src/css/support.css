@@ -43,6 +43,8 @@ input, textarea {
     outline: none;
     resize: none;
     padding: 12px;
+
+    transition: border-color 250ms ease-in-out;
 }
 input {
     padding: 12px 8px;
@@ -53,7 +55,7 @@ textarea::placeholder {
 }
 
 input:not(:placeholder-shown):invalid {
-  border-color: red;
+  border-color: #d64040;
 }
 .text-invalid {
     font-size: 12px;
@@ -63,7 +65,6 @@ input:not(:placeholder-shown):invalid {
 
 input:not(:placeholder-shown):invalid ~ .text-invalid {
   display: block;
-  margin-top: -8px;
   margin-bottom: -25.6px;
 }
 
@@ -81,6 +82,7 @@ input:not(:placeholder-shown):invalid ~ .text-invalid {
     color: #fff;
     border-radius: 6px;
     padding: 12px 24px;
+    transition: opacity 250ms ease-in-out, border 250ms ease-in-out, background-color 250ms ease-in-out;
 }
 .support-form>button:hover,
 .support-form>button:focus {
