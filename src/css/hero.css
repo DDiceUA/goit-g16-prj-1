@@ -53,7 +53,11 @@
   color: #fff;
   background-color: #030a06;
   cursor: pointer;
-  display: block;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
   border-radius: 6px;
   border: none;
   width: 288px;
@@ -100,13 +104,16 @@ border-radius: 40px;
 
   .subsubtitle {
     font-size: 18px;
+    max-width: 340px;
   }
 
   .hero-content {
+    align-items: flex-start;
     gap: 32px;
   }
 
   .main-button {
+    margin: 0;
     width: 148px;
     height: 50px;
   }
@@ -138,15 +145,18 @@ border-radius: 40px;
   }
 
   .hero-content {
+  
     gap: 32px;
     margin-bottom: 20px;
   }
 
   .subsubtitle {
+    max-width: 640px;
     font-size: 18px;
   }
 
   .main-button {
+    
     width: 148px;
     height: 50px;
   }
