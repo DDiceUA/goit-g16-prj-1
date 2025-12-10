@@ -6,6 +6,11 @@
   z-index: 1000;
 }
 
+.icon-logo.header-logo-icon{
+  width: 84px;
+  height: 36px;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between; 
@@ -299,6 +304,11 @@
 .contacts-link:hover,
 .contacts-link:focus{
   color: #000;
+}
+
+.icon-logo.header-logo-icon{
+  width: 106px;
+  height: 45px;
 }
 
 }
