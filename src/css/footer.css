@@ -63,15 +63,15 @@
 }
 .footer-link:hover,
 .footer-link:focus {
-  color: #030a06;
-  border-color: #030a06;
+  color: #0a0303;
+  border-color: #b40606;
   opacity: 0.5;
   text-decoration: underline;
 }
 
 .footer-link:active {
-  color: #02b851;
-  border-color: #02b851;
+  color: rgb(192, 58, 58);
+  border-color: rgb(192, 58, 58);
   transition: 250ms ease-in-out;
   text-decoration: underline;
 }
