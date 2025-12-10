@@ -61,16 +61,30 @@
   align-items: center;
   gap: 16px;
 }
-.assortment-button:hover,
-.assortment-button:focus {
+.footer-link:hover,
+.footer-link:focus {
+  color: #030a06;
+  border-color: #030a06;
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
+.footer-link:active {
+  color: #02b851;
+  border-color: #02b851;
+  transition: 250ms ease-in-out;
+  text-decoration: underline;
+}
+.footerlogo-link:hover,
+.footer-logo-link:focus {
   color: #030a06;
   border-color: #030a06;
   opacity: 0.5;
 }
 
-.assortment-button:active {
-  color: #113916;
-  border-color: #113916;
+.footer-logo-link:active {
+  color: #030a06;
+  border-color: #030a06;
   transition: none;
 }
 
