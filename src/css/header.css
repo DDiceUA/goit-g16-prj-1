@@ -30,6 +30,11 @@
   display: flex;
 }
 
+.mobile-menu .icon-logo{
+  width: 84px;
+  height: 36px;
+}
+
 .icon-logo{
   width: 84px;
   height: 36px;
