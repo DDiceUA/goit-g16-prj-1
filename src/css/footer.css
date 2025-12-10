@@ -63,29 +63,46 @@
 }
 .footer-link:hover,
 .footer-link:focus {
-  color: #0a0303;
-  border-color: #b40606;
-  opacity: 0.5;
+  color: #030a06;
+  border-color: #030a06;
   text-decoration: underline;
+  transition: 250ms ease-in-out;
 }
 
 .footer-link:active {
-  color: rgb(192, 58, 58);
-  border-color: rgb(192, 58, 58);
+  color: rgba(58, 192, 76, 1);
+  border-color: rgba(58, 192, 76, 1);
   transition: 250ms ease-in-out;
   text-decoration: underline;
+}
+.footerlogo-link:disabled {
+  opacity: 0.2;
 }
 .footerlogo-link:hover,
 .footer-logo-link:focus {
   color: #030a06;
   border-color: #030a06;
   opacity: 0.5;
+  transition: 250ms ease-in-out;
 }
 
 .footer-logo-link:active {
   color: #030a06;
   border-color: #030a06;
-  transition: none;
+  transition: 250ms ease-in-out;
+}
+.footer-link-button:hover,
+.footer-link-button:focus {
+  opacity: 0.5;
+  transition: 250ms ease-in-out;
+}
+.footer-link-button:active {
+  color: rgba(17, 57, 22, 1);
+  opacity: 0.6;
+}
+.footer-link-button.footer-link-button:disabble {
+  color: rgba(3, 10, 6, 1);
+  opacity: 0.2;
 }
 
 /* -------------------------tablet------------------------- */
