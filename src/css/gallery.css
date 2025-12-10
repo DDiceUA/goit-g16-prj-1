@@ -10,6 +10,11 @@
     flex-direction: column;
 }
 
+ .gallery-item {
+    max-width: 288px;
+    border-radius: 32px;
+    
+}
 
 /* Tablet screen */
 @media only screen and (min-width: 768px) {
@@ -170,15 +175,14 @@ grid-row-gap: 24px;
         .div4 {
             grid-area: 1 / 1 / 2 / 2;
         }
+        .gallery-item{
+            max-width: 100%;
+        }
     
     }
     
     
- .gallery-item {
-    max-width: 288px;
-    border-radius: 32px;
-    
-}
+
 
 /* Tablet screen */
 @media only screen and (min-width: 768px) {

@@ -155,9 +155,24 @@ input:not(:placeholder-shown):invalid ~ .text-invalid {
     .support-form>button {
         max-width: 198px;
     }
+
+    
 }
 @media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
     .support-img {
         background-image: url(/img/support/support-d@2x.jpg);   
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .support-img {
+        height: 767px;
+    }
+    .support.section{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .support > .container{
+        height: 100%;
     }
 }
