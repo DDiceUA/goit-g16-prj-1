@@ -26,6 +26,11 @@
   flex-shrink: 0; 
 }
 
+.icon-logo{
+  width: 84px;
+  height: 36px;
+}
+
 .nav-list {
   display: none; 
   list-style: none;
@@ -183,6 +188,12 @@
 
 
 @media screen and (min-width: 1440px) {
+
+.icon-logo{
+  width: 106.51px;
+  height: 45.65px;
+}
+
   .mobile-menu-button {
     display: none; 
   }
@@ -222,11 +233,12 @@
     font-weight: 500;
     transition: color 0.2s ease;
   }
+ 
+.contacts-link:hover,
+.contacts-link:focus{
+  color: #000;
+}
 
-  .contacts-link:hover,
-  .contacts-link:focus {
-    color: #000;
-  }
 }
 
 
