@@ -21,11 +21,21 @@
   font-weight: 400;
   font-size: 16px;
   font-style: normal;
-
-  /* line-height: 26px; */
   line-height: 160%;
   color: #030a06;
 }
+
+.footer-menu-text:hover,
+.footer-menu-text:focus {
+  color: #000;
+  transition: color 0.2s ease;
+}
+
+.footer-menu-text:active {
+  color: #3ac04c;
+  transition: color 0.2s ease;
+}
+
 .footer-menu {
   display: flex;
   flex-direction: column;
@@ -44,6 +54,18 @@
   height: 32px;
   display: flex;
 }
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  color: #000;
+  transition: color 0.2s ease;
+}
+
+.footer-social-link:active {
+  color: #3ac04c;
+  transition: color 0.2s ease;
+}
+
 .footer-bottom {
   display: flex;
   justify-content: center;
@@ -119,7 +141,9 @@
   .icon-social-footer{
     width: 24px;
     height: 24px;
+    
   }
+
   .footer-top{
     margin-bottom: 52px;
   }

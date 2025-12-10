@@ -30,6 +30,15 @@
   display: flex;
 }
 
+.header-logo:hover,
+.header-logo:focus {
+  color: #000;
+  transition: color 0.2s ease;
+}
+
+.header-logo:active {
+  color: #3ac04c;
+  transition: color 0.2s ease;
 .mobile-menu .icon-logo{
   width: 84px;
   height: 36px;
@@ -54,12 +63,23 @@
   font-size: 18px;
   line-height: 1.5;
   font-weight: 500;
-  transition: color 0.2s ease;
 }
 
 .nav-link:hover,
 .nav-link:focus {
   color: #000;
+  transition: color 0.2s ease;
+  border-bottom: 1px solid #030a06;
+  width: 50px;
+  height: 26px;
+}
+
+.nav-link:active {
+  color: #3ac04c;
+  transition: color 0.2s ease;
+  border-bottom: 1px solid #3ac04c;
+  width: 50px;
+  height: 26px;
 }
 
 .contacts {
@@ -85,6 +105,10 @@
 .contacts-link:hover,
 .contacts-link:focus {
   color: #000;
+  transition: color 0.2s ease;
+  border-bottom: 1px solid #030a06;
+  width: 50px;
+  height: 26px;
 }
 
 .mobile-menu-button {
@@ -184,12 +208,12 @@
   font-size: 16px; 
   line-height: 1.6;
   font-weight: 400; 
-  transition: color 0.2s ease; 
 }
 
 .mobile-nav-link:hover,
 .mobile-nav-link:focus {
   color: #000; 
+  transition: color 0.2s ease;
 }
 
 .mobile-menu-footer {
@@ -208,12 +232,12 @@
   font-size: 16px; 
   line-height: 1.6; 
   font-weight: 400; 
-  transition: color 0.2s ease; 
 }
 
 .mobile-contact:hover,
 .mobile-contact:focus {
   color: #000; 
+  transition: color 0.2s ease;
   }
 
 
@@ -284,6 +308,7 @@
     line-height: 160%;
     }
 
+
   .contacts {
     gap: 24px; 
     align-items: center; 
@@ -303,13 +328,8 @@
     font-size: 16px; 
     line-height: 1.6;
     font-weight: 400;
-    transition: color 0.2s ease;
   }
  
-.contacts-link:hover,
-.contacts-link:focus{
-  color: #000;
-}
 
 .icon-logo.header-logo-icon{
   width: 106px;
