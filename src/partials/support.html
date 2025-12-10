@@ -1,39 +1,45 @@
-<section class="support">
-    <div class="container">
-        <div class="support-text-container">
-            <h2 class="subheading">Залишились питання? Зв'яжіться з нами!</h2>
-            <h3 class="support-text">Ми тут, щоб допомогти!</h3>
-            <form class="support-form">
-                <label class="support-form-label">
-                    Ім'я
-                    <input type="text" 
-                            name="name" 
-                            placeholder="Іван"
-                            minlength="5"
-                            maxlength="64"
-                            required>
-                    <p class="text-invalid">Invalid name</p>
-                </label>
-                <label class="support-form-label">
-                    Електронна пошта
-                    <input type="email" 
-                            name="email"
-                            placeholder="hello@ecotote.com"
-                            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-                            required>
-                    <p class="text-invalid">Invalid email</p>
-                </label>
-                <label class="support-form-label">
-                    Повідомлення
-                    <textarea name="message" 
-                            rows="6" 
-                            max="500"
-                            placeholder="Введіть своє повідомлення..."
-                            required></textarea>
-                </label>
-                <button type="submit">Надіслати</button>
-            </form>
-        </div>
-        <div class="support-img"></div>
+<section class="support section">
+  <div class="container">
+    <div class="support-text-container">
+      <h2 class="subheading">Залишились питання? Зв'яжіться з нами!</h2>
+      <h3 class="support-text">Ми тут, щоб допомогти!</h3>
+      <form class="support-form">
+        <label class="support-form-label">
+          Ім'я
+          <input
+            type="text"
+            name="name"
+            placeholder="Іван"
+            minlength="5"
+            maxlength="64"
+            required
+          />
+          <p class="text-invalid">Invalid name</p>
+        </label>
+        <label class="support-form-label">
+          Електронна пошта
+          <input
+            type="email"
+            name="email"
+            placeholder="hello@ecotote.com"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+          />
+          <p class="text-invalid">Invalid email</p>
+        </label>
+        <label class="support-form-label">
+          Повідомлення
+          <textarea
+            name="message"
+            rows="6"
+            max="500"
+            placeholder="Введіть своє повідомлення..."
+            required
+          ></textarea>
+        </label>
+        <button type="submit">Надіслати</button>
+      </form>
     </div>
+    <div class="support-img"></div>
+  </div>
 </section>
